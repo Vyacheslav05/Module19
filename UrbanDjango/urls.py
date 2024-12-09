@@ -20,6 +20,7 @@ from task1.views import main1, bascet, menu
 from task1.views import sign_up_by_html, sign_up_by_django
 
 urlpatterns = [
+    path('', ),
     path('admin/', admin.site.urls),
     path('platform/', main1.as_view()),
     path('platform/games/', menu),
